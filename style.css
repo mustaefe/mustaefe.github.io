@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}nav{
+    background-color: rgb(17, 2, 24);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:6vh;
+}
+nav ul{ 
+    display: flex;
+    font-size: 2rem;
+}nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    padding: 1rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+nav div input{
+    width: 20rem;
+    height: 4vh;
+    border-radius: 10px;
+}
+input[placeholder]{
+    padding: 1rem;
+    font-size: 1rem;
+}
+.contant{
+    width: 100%;
+    height: 94vh;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+.open-sidepar{
+    width:100%;
+    height: 94vh;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: darkgrey;
+}.open-sidepar img{
+    transform: rotate(180deg);
+}
+
+.closed-sidepar{
+    width: 1.2%;
+}
+#side-par-button{
+    background-color: darkgrey;
+    cursor: pointer;
+
+}
+.sidepar-contant{
+    width: 100%;
+    height: 92vh;
+    background-color: aliceblue;
+}
+.novel-info {
+    visibility: hidden;
+}
+.novel-contant{
+    visibility: hidden;
+}
+.novel-info img{
+    float: left;
+    width: 45%;
+    height: 30vh;
+    margin: 1rem;
+}
+.novel-info h1{
+    text-align: center;
+    margin: 1rem;
+}
+.novel-info P{
+    font-family: 'Merriweather', serif;
+    font-weight:500;
+    color: black;
+    line-height: 1.5em;
+}
+.container-page{
+    flex-grow: 2;
+    height: 94vh;
+    background-color: darkred;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 50px black;
+
+}
+.pages{
+    width: 80%;
+    height: 89vh;
+    background-color: blue;
+    box-shadow: 0px 50px 50px black;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 10px;
+ 
+}
+.page-1 {
+    height: 89vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    background:linear-gradient(0.75turn, rgb(0, 0, 0), 20%, white);
+    border: black solid 1px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.page-2 {
+    height: 89vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    background:linear-gradient(0.25turn, rgb(0, 0, 0), 20%,white);
+    border: black solid 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.buttons{
+    width: 80%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    font-size: 2rem;
+    border-radius: 100px;
+    width: 10%;
+    color: aliceblue;
+    cursor: pointer;
+}
+#button-previous{
+    background:linear-gradient(.75turn, darkred, darkblue)
+}
+#button-next{
+    background:linear-gradient(.25turn, darkred, darkblue)
+}
+.text {
+    background:rgba(252, 227, 180, 0.123);
+    width: 90%;
+    height: 84vh;
+    font-family: 'Merriweather', serif;
+    font-weight:500;
+    color: black;
+    line-height: 2em;
+    
+}
